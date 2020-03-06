@@ -1,0 +1,113 @@
+/*---------------- fonts ----------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Qwigley&display=swap');
+
+body {
+    /* background-color: green; */
+}
+
+/*---------------- Color ----------------*/
+
+.bg-color {
+    background-color: #FFFFE0;
+}
+
+
+/*---------------- Early Life Section ----------------*/
+
+/*----------------headshot ----------------*/
+
+.headshot {
+    background: url("../images/adaChildhood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    width: 100%;
+}
+
+.profile {
+    margin: 0;
+    padding: 0;
+}
+
+.history-heading,
+.section-column {
+    display: table-cell;
+    padding: 15px 15px 15px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: 'Qwigley', cursive;
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*---------------- Early Life Timeline Column----------------*/
+
+.history-heading {
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 0;
+}
+
+.timeline-item {
+    padding: 4em 2em 2em 2em;
+    position: relative;
+    color: #000000;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+.timeline-item::before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -0.4em;
+    border-radius: 12px;
+    content: ' ';
+    background-color: #000000;
+    z-index: 1;
+}
+
+.history-items {
+    margin-bottom: 15px;
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	/* background-color: red; */
+}
+
+body {
+	background-color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+	background-color: blueviolet !important;
+}
