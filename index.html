@@ -11,47 +11,74 @@
 		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
-	<link rel="stylesheet" href="static/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Ada Lovelace</title>
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">Navbar</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-			<div class="collapse navbar-collapse" id="navbarNav">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Ada Lovelace - Enchantress of Numbers</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="#Home">Home</a>
+						<a class="nav-link" href="#section-1">Home<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#earlyLife">Early Life</a>
+						<a class="nav-link" href="#section-2">Early Life</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#work">Ada's Work</a>
+						<a class="nav-link" href="#section-3">Learn Like Ada</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#learningPath">Learning Like Ada</a>
+						<a class="nav-link" href="#section-4">Start Your Journey!</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</header>
+
+	<!-- Section 1 -->
 	<div class="container">
-		<section id="Home">
+		<div class="row" id="section-1">
+			<div class="col-12">
+				<img src="https://www.spartaglobal.com/uploads/ada-lovelace-1024x679.jpg" alt="" style="max-height: 300px">
+            </div>
+			</div>
 			<div class="row">
-				<div class="col">
-					<h2>Introduction</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias nam esse rem ea tempora aut,
-						eveniet et, labore rerum voluptates sequi quidem obcaecati illo fugit animi quibusdam nemo cum
-						voluptas.</p>
+				<div class="col col-12">
+					<h2>The Enchantress of Numbers</h2>
+					<p>Augusta Ada King-Noel, Countess of Lovelace — was a famous writer and mathematician known
+						mostly
+						for her
+						work with Charles Babbage on the Analytical Engine.
+						In today’s world of far less complex names, she is more commonly called Ada Lovelace.
+						She has also been dubbed as The Enchantress of Numbers and is considered to be the author of
+						the
+						first
+						computer program.</p>
+					<p>She was a true visionary and gifted intellectual who played a central role in the development
+						of
+						modern
+						digital computers.
+						As early as the 1840s, she had published detailed descriptions of what we know today as
+						modern
+						computing:
+						all-purpose machines that do many different things such as play music, manipulate graphics,
+						and
+						power
+						heavy machinery.
+						It wasn’t until a century later that her visions would be fully realized.
+					</p>
 				</div>
 			</div>
-
-		</section>
+		</div>
+	</div>
+	<div class="container">
 		<section id="earlyLife">
 			<h2 class="section-heading">Early Life</h2>
 			<div class="row">
@@ -64,19 +91,25 @@
 				<div class="col-12 col-sm-8">
 					<!--Timeline of Ada's Early Life-->
 					<h3 class="section-heading">Childhood</h3>
-					<p>Ada Byron was born Ada Byron on the 10 December 1815. She was the only child of Lord and Lady
+					<p>Ada Byron was born Ada Byron on the 10 December 1815. She was the only
+						child of Lord and Lady
 						Byron.</p>
-					<p>As a child she was often ill. This however, did not stop here developing her mathematical
-						and technological skills. Ada had a fascination with machines– designing fanciful boats and
-						steam flying machines, and poring over the diagrams of the new inventions of the Industrial
+					<p>As a child she was often ill. This however, did not stop here developing
+						her mathematical
+						and technological skills. Ada had a fascination with machines– designing
+						fanciful boats and
+						steam flying machines, and poring over the diagrams of the new
+						inventions of the Industrial
 						Revolution that filled the scientific magazines of the time</p>
-					<p>At the age of 19 she was married to an aristocrat, William King; when King was made Earl of
-						Lovelace in 1838 his wife became Lady Ada King, Countess of Lovelace. She thereafter she was
+					<p>At the age of 19 she was married to an aristocrat, William King; when
+						King was made Earl of
+						Lovelace in 1838 his wife became Lady Ada King, Countess of Lovelace.
+						She thereafter she was
 						know as Ada Lovelace</p>
 
 				</div>
 			</div>
-            
+
 			<div class="row">
 				<div class="col-12 col-sm-4 section-column bg-color">
 					<h3 class="history-heading uppercase">Early Life</h3>
@@ -95,7 +128,8 @@
 						</div>
 						<div class="timeline-item" data-dates="1841">
 							<h5>Difference Engine Publication</h5>
-							<p>Expanded on a article written on the Difference Engine by the italian mathematician
+							<p>Expanded on a article written on the Difference Engine by the
+								italian mathematician
 								Luigi Menabrea</p>
 						</div>
 					</div>
@@ -105,64 +139,168 @@
 					<!--Education -->
 					<h3 class="section-heading">Education</h3>
 					<p>
-						Ada was privately schooled in mathematics and science by noted 19th-century researcher and
+						Ada was privately schooled in mathematics and science by noted
+						19th-century researcher and
 						scientific authors.
 					</p>
 					<p>
-						In 1833, Lovelace’s mentor, the scientist and polymath Mary Sommerville, introduced her to
-						Charles Babbage, the Lucasian Professor of Mathematics who had already attained considerable
-						celebrity for his visionary and perpetually unfinished plans for gigantic clockwork
-						calculating machines. Charles Babbage and Ada Lovelace both had somewhat unconventional
-						personalities and became close and lifelong friends. Babbage described her as “that
-						Enchantress who has thrown her magical spell around the most abstract of Sciences and has
-						grasped it with a force which few masculine intellects could have exerted over it,” or an
+						In 1833, Lovelace’s mentor, the scientist and polymath Mary Sommerville,
+						introduced her to
+						Charles Babbage, the Lucasian Professor of Mathematics who had already
+						attained considerable
+						celebrity for his visionary and perpetually unfinished plans for
+						gigantic clockwork
+						calculating machines. Charles Babbage and Ada Lovelace both had somewhat
+						unconventional
+						personalities and became close and lifelong friends. Babbage described
+						her as “that
+						Enchantress who has thrown her magical spell around the most abstract of
+						Sciences and has
+						grasped it with a force which few masculine intellects could have
+						exerted over it,” or an
 						another occasion, as “The Enchantress of Numbers”.
 					</p>
 					<!--Education -->
 					<h3 class="section-heading">Difference Engine</h3>
 					<p>
-						In 1842 Lovelace translated a short article describing the Analytical Engine by the italian
-						mathematician Luigi Menabrea, for publication in England. Babbage asked her to expand the
-						article, “as she understood the machine so well”. The final article is over three times the
-						length of the original and contains several early ‘computer programs,’ as well as strikingly
-						prescient observations on the potential uses of the machine, including the manipulation of
-						symbols and creation of music. Although Babbage and his assistants had sketched out programs
-						for his engine before, Lovelace’s are the most elaborate and complete, and the first to be
-						published; so she is often referred to as “the first computer programmer”. Babbage himself
-						“spoke highly of her mathematical powers, and of her peculiar capability — higher he said
-						than of any one he knew, to prepare the descriptions connected with his calculating machine.
+						In 1842 Lovelace translated a short article describing the Analytical
+						Engine by the italian
+						mathematician Luigi Menabrea, for publication in England. Babbage asked
+						her to expand the
+						article, “as she understood the machine so well”. The final article is
+						over three times the
+						length of the original and contains several early ‘computer programs,’
+						as well as strikingly
+						prescient observations on the potential uses of the machine, including
+						the manipulation of
+						symbols and creation of music. Although Babbage and his assistants had
+						sketched out programs
+						for his engine before, Lovelace’s are the most elaborate and complete,
+						and the first to be
+						published; so she is often referred to as “the first computer
+						programmer”. Babbage himself
+						“spoke highly of her mathematical powers, and of her peculiar capability
+						— higher he said
+						than of any one he knew, to prepare the descriptions connected with his
+						calculating machine.
 					</p>
 					<h3 class="section-heading">Death</h3>
 					<p>
-						Sadly Ada Lovelace died of cancer at 36, a few short years after the publication of “Sketch of
+						Sadly Ada Lovelace died of cancer at 36, a few short years after the
+						publication of “Sketch of
 						the
 						Analytical Engine, with Notes from the Translator”.
 					</p>
 				</div>
 			</div>
 		</section>
-		<section id="work">
-			<div class="row">
-				<div class="col">
-					<h2>Ada's Work</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias nam esse rem ea tempora aut,
-						eveniet et, labore rerum voluptates sequi quidem obcaecati illo fugit animi quibusdam nemo cum
-						voluptas.</p>
-				</div>
-			</div>
-		</section>
-		<section id="learningPath">
-			<div class="row">
-				<div class="col">
-					<h2>Learning Like Ada</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias nam esse rem ea tempora aut,
-						eveniet et, labore rerum voluptates sequi quidem obcaecati illo fugit animi quibusdam nemo cum
-						voluptas.</p>
-				</div>
-			</div>
-		</section>
-
 	</div>
+	</div>
+	<!-- Carousel of images -->
+	<!-- <div class="row">
+		<div class="col col-6"> -->
+	<!-- <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active" data-interval="3000">
+							<img src="#" class="d-block w-100" alt=""></div>
+							<div class="carousel-item" data-interval="3000">
+								<img src="#" class="d-block w-100" alt=""></div>
+								<div class="carousel-item" data-interval="3000">
+									<img src="#" class="d-block w-100" alt="">
+                  </div>
+									<div class="carousel-item" data-interval="3000">
+										<img src="#" class="d-block w-100" alt="">
+                  </div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleInterval" role="button"
+										data-slide="prev">
+										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleInterval" role="button"
+										data-slide="next">
+										<span class="carousel-control-next-icon" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<hr> -->
+
+	<div class="container">
+		<!-- Early Life -->
+		<div class="row" id="section-2">
+			<div class="col col-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/uOkmyICUW_c" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+		</div>
+		<hr>
+		<!-- Learn Like Ada -->
+		<div class="row" id="section-3">
+			<div class="col col-6">
+				<h2>Learn Like Ada</h2>
+				<p>Let's learn what algorithms are so we can understand just what Ada did!</p>
+			</div>
+			<div class="col col-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/rL8X2mlNHPM" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="col col-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/xngWoocXYCo" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="col col-6">
+				<p>now that we know what algorithms are, we need to learn to think like a
+					computer!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-6">
+				<p>We know how computers think! But how can we learn to speak with them?</p>
+			</div>
+			<div class="col col-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/pKBw98uHOyk" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="col col-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/-7guY-QkDRk" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="col col-6">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint expedita ipsam
+					tempora quia quam
+					consequatur illo nesciunt! Aliquam, ipsa nostrum!</p>
+			</div>
+		</div>
+		<hr>
+		<!-- Start Your Coding Journey -->
+		<div class="row" id="section-4">
+			<div class="col col-6">
+				<h2>Start Your Coding Journey!</h2>
+				<button class="btn btn-primary" href="https://codehs.com/" target="_blank">Codehs</button>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint expedita ipsam
+					tempora quia quam
+					consequatur illo nesciunt! Aliquam, ipsa nostrum!</p>
+			</div>
+			<div class="col col-6">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/VXKG_VtR3Yc" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pKBw98uHOyk" frameborder="0"
+               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+			</div>
+		</div>
+	</div>
+	<hr>
+	<footer style="height: 150px;">
+		<p>Celebrating Women in Tech</p>
+	</footer>
 	<!--JQuery-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -175,5 +313,6 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
 </body>
+
 
 </html>

@@ -95,4 +95,19 @@ body {
 
 .history-items {
     margin-bottom: 15px;
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar {
+	/* background-color: red; */
+}
+
+body {
+	background-color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+	background-color: blueviolet !important;
 }
