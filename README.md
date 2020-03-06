@@ -1,35 +1,74 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome DarrenCoppinger,
+# 'Women in Tech' Hackathon - Team 3
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Hackathon - Friday, 6th March 2020
 
-## Gitpod Reminders
+The goal of this Hackathon is to work together as a team in the same way you would work on projects in a production environment with your future coworkers.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Project Overview
 
-A blue button should appear to click: *Expose*,
+** THEME
+### International Women’s Day - Women in Tech
 
-Another blue button should appear to click: *Open Browser*.
+** CHALLENGE
+"Your challenge is to create a fun and engaging website designed to educate children about the life and/or work of your team’s assigned woman in tech. This isn’t just another wikipedia page - this is about getting kids excited and engaged about the amazing contributions that these women have made to the tech world. So think about your audience and make your project as engaging and innovative as possible!"
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### OUR TEAM’S FAMOUS ‘WOMAN IN TECH’: __Ada Lovelace__
 
-A blue button should appear to click: *Expose*,
+Ada Lovelace - “The Enchantress of Numbers”
+Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage’s proposed mechanical general-purpose computer, the Analytical Engine.
 
-Another blue button should appear to click: *Open Browser*.
+## Project Requirements
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Create a simple and engaging site for young people who want to learn about Ada Lovelace and her contribution to tech
 
-## Updates Since The Instructional Video
+Key words for requirement/use cases: “Educate Children”, “Life and/ or work” (RMC- probably a bit of both I think), “Getting kids excited”, “Amazing contributions”, ” engaging and innovative”
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+Use Cases
+* As a student, I want to see ada’s work accomplishments and general research
+* As a student,  I want to know about her life and why she is a celebrated woman in tech
+* As a student,  I want to know about Ada’s role within the Analytical Engine’s development - how important was she to the team?  What were her main contributions?  Why are these so important?
+* As a student,  I want to know what obstacles Ada might have had to overcome and why she was inspired to do so.
+* As a teacher, I'd like an intuitive and easy to understand background of who ada is and the work she contributed to computing.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## UX
+Strategy 
+- Site Objectives
+Educational
+Engaging for children
+Foster excitement in Tech as a career path for women
+User Needs
+(see Use Cases above)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Scope
+- Content
+Image Carousel (Bootstrap)
+Embedded Youtube Videos
+Embedded Google map showing birthplace
+External links to next steps kids can take to pursue their interest
+Section on legacy and lasting contribution to Computing
 
---------
+Structure 
+- Interaction Design
+Feedback very important to keep kids engaged ie colour changes on hover of buttons, image carousels
+-Information Architecture
+Single page to retain user engagement
 
-Happy coding!
+Skeleton
+ - Sections for Introduction, Early Life, Ada's Work, 'Learn Like Ada'
+ - 'Learn like Ada' represents a progression from one idea to the next, so separate sections for each
+ - Blurbs which describe why the user might want to learn to code, and how to start
+ - Resources section
+
+Surface
+Colours & Fonts
+Bright/Playful
+Easy to navigate
+
+## Testing
+
+## Collaboration
+
+## References / Credits
