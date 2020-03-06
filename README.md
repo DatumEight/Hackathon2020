@@ -9,10 +9,10 @@ The goal of this Hackathon is to work together as a team in the same way you wou
 
 ## Project Overview
 
-** THEME
+**THEME
 ### International Women’s Day - Women in Tech
 
-** CHALLENGE
+**CHALLENGE
 "Your challenge is to create a fun and engaging website designed to educate children about the life and/or work of your team’s assigned woman in tech. This isn’t just another wikipedia page - this is about getting kids excited and engaged about the amazing contributions that these women have made to the tech world. So think about your audience and make your project as engaging and innovative as possible!"
 
 ### OUR TEAM’S FAMOUS ‘WOMAN IN TECH’: __Ada Lovelace__
