@@ -14,3 +14,6 @@ body {
 footer {
 	background-color: blueviolet !important;
 }
+.w-100 {
+    height: 100vh;
+}
