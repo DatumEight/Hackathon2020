@@ -2,15 +2,21 @@ html {
 	scroll-behavior: smooth;
 }
 
+.navbar-brand {
+	font-size: 24px;
+}
+
 .navbar {
-	/* background-color: red; */
+	background-color: purple;
+	height: 80px;
+	font-size: 22px;
 }
 
 body {
-	background-color: white;
+	background-color: whitesmoke;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
-	background-color: blueviolet !important;
+	background-color: purple !important;
 }

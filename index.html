@@ -11,13 +11,14 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
       type="text/css" />
-   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="static/css/style.css" type="text/css" />
    <title>Ada Lovelace</title>
 </head>
 
 <body>
    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="section-1">
          <a class="navbar-brand" href="#">Ada Lovelace - Enchantress of Numbers</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,11 +44,13 @@
    </header>
    <div class="container-fluid">
       <!-- Section 1 -->
-      <div class="row" id="section-1">
-         <div class="col col-6">
+      <br>
+      <div class="row">
+         <div class="col col-md-6">
             <img src="https://www.spartaglobal.com/uploads/ada-lovelace-1024x679.jpg" alt="" style="max-height: 300px">
          </div>
-         <div class="col col-6">
+         <div class="col col-md-6">
+            <br>
             <h2>The Enchantress of Numbers</h2>
             <p>Augusta Ada King-Noel, Countess of Lovelace — was a famous writer and mathematician known mostly for her
                work with Charles Babbage on the Analytical Engine.
@@ -65,14 +68,16 @@
       </div>
       <!-- Carousel of images -->
       <div class="row">
-         <div class="col col-6">
+         <div class="col col-md-6">
             <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active" data-interval="3000">
-                     <img src="#" class="d-block w-100" alt="">
+                     <!-- <img src="https://www.viaempresa.cat/uploads/s1/20/58/55/16/ada-lovelace.jpeg"
+                        class="d-block w-100" alt=""> -->
                   </div>
                   <div class="carousel-item" data-interval="3000">
-                     <img src="#" class="d-block w-100" alt="">
+                     <!-- <img src="https://www.spartaglobal.com/uploads/ada-lovelace-1024x679.jpg" class="d-block w-100"
+                        alt=""> -->
                   </div>
                   <div class="carousel-item" data-interval="3000">
                      <img src="#" class="d-block w-100" alt="">
@@ -95,12 +100,12 @@
       <hr>
       <!-- Early Life -->
       <div class="row" id="section-2">
-         <div class="col col-6">
+         <div class="col col-md-6">
             <h2>Early Life</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint expedita ipsam tempora quia quam
                consequatur illo nesciunt! Aliquam, ipsa nostrum!</p>
          </div>
-         <div class="col col-6">
+         <div class="col col-md-6">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/uOkmyICUW_c" frameborder="0"
                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
@@ -108,12 +113,12 @@
       <hr>
       <!-- Learn Like Ada -->
       <div class="row" id="section-3">
-         <div class="col col-6">
+         <div class="col col-md-6">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/xngWoocXYCo" frameborder="0"
                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </div>
-         <div class="col col-6">
-            <h2>Learn Like Ada</h2>
+         <div class="col col-md-6">
+            <h2><i class="material-icons">laptop_chromebook</i> Learn Like Ada</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint expedita ipsam tempora quia quam
                consequatur illo nesciunt! Aliquam, ipsa nostrum!</p>
          </div>
@@ -121,13 +126,18 @@
       <hr>
       <!-- Start Your Coding Journey -->
       <div class="row" id="section-4">
-         <div class="col col-6">
-            <h2>Start Your Coding Journey!</h2>
-            <button class="btn btn-primary" href="https://codehs.com/" target="_blank">Codehs</button>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint expedita ipsam tempora quia quam
-               consequatur illo nesciunt! Aliquam, ipsa nostrum!</p>
+         <div class="col col-md-6">
+            <div class="jumbotron">
+               <h2>Start Your Coding Journey!</h2>
+               <button class="btn btn-primary btn-lg text-center" href="https://codehs.com/" target="_blank">
+                  GO!
+               </button>
+               <br>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint expedita ipsam tempora quia quam
+                  consequatur illo nesciunt! Aliquam, ipsa nostrum!</p>
+            </div>
          </div>
-         <div class="col col-6">
+         <div class="col col-md-6">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/VXKG_VtR3Yc" frameborder="0"
                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/pKBw98uHOyk" frameborder="0"
@@ -135,20 +145,29 @@
          </div>
       </div>
       <hr>
-      <footer style="height: 150px;">
-         <p>Celebrating Women in Tech</p>
-      </footer>
-      <!--JQuery-->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-         </script>
-      <!--Popper and Bootstrap-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-         </script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-         </script>
+   </div>
+   <footer style="height: 120px;">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col col-md-12 text-center">
+               <br>
+               <p style="color: white;">Celebrating Women in Tech!</p>
+               <p style="color: white;">Team Three</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!--JQuery-->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
+   <!--Popper and Bootstrap-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+      </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+      </script>
 </body>
 
 
