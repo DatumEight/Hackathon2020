@@ -6,6 +6,8 @@ Hackathon - Friday, 6th March 2020
 
 The goal of this Hackathon is to work together as a team in the same way you would work on projects in a production environment with your future coworkers.
 
+## Live Demo
+See the live demo [here:](https://datumeight.github.io/Hackathon2020/)
 
 ## Project Overview
 
@@ -71,11 +73,14 @@ Easy to navigate
 
 ## Collaboration
 Contributors:
-Darren Coppinger
-Mohamed Hashim
-James West
-Ronan McClelland
-Tom Dunn
-Saharalnoor Jerrari
+
+* Darren Coppinger
+* Mohamed Hashim
+* James West
+* Ronan McClelland
+* Tom Dunn
+* Saharalnoor Jerrari
+
+We had a great team who all worked well together on this project!
 
 ## References / Credits
