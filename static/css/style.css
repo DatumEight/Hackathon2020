@@ -1,3 +1,6 @@
+/*---------------- fonts ----------------*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Qwigley&display=swap');
+
 body {
     /* background-color: green; */
 }
@@ -10,6 +13,23 @@ body {
 
 
 /*---------------- Early Life Section ----------------*/
+
+/*----------------headshot ----------------*/
+
+.headshot {
+    background: url("../images/adaChildhood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    width: 100%;
+}
+
+.profile {
+    margin: 0;
+    padding: 0;
+}
+
 .history-heading,
 .section-column {
     display: table-cell;
@@ -18,8 +38,9 @@ body {
 }
 
 .section-heading {
-    font-family: serif;
-    font-weight: 400;
+    font-family: 'Qwigley', cursive;
+    font-weight: 800;
+    font-size: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
